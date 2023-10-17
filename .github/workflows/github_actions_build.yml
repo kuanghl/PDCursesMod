@@ -10,6 +10,13 @@ jobs:
     - uses: actions/checkout@master
     - name: make
       run: |
+        #  # src
+        #  cd vt
+        #  make demos
+        #  cd ../fb
+        #  make UTF8=Y demos
+
+         # new
          mkdir build
          cd build
          cmake ..
@@ -22,6 +29,11 @@ jobs:
     - uses: actions/checkout@master
     - name: make
       run: |
+        #  # src
+        #  cd vt
+        #  make CLANG=Y demos
+
+         # new
          mkdir build
          cd build
          cmake ..
