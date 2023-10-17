@@ -10,10 +10,9 @@ jobs:
     - uses: actions/checkout@master
     - name: make
       run: |
-         cd vt
-         make demos
-         cd ../fb
-         make UTF8=Y demos
+         mkdir build
+         cmake ..
+         sudo make -j16
 
   buildOSX:
     runs-on: macOS-latest
