@@ -11,6 +11,7 @@ jobs:
     - name: make
       run: |
          mkdir build
+         cd build
          cmake ..
          sudo make -j16
 
