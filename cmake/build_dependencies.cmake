@@ -7,11 +7,11 @@ IF (PDC_SDL2_DEPS_BUILD)
         set(FLAGS_FOR_DYNAMIC_LINK -fPIC) 
     ENDIF()
 
-    SET(SDL2_RELEASE 2.26.2)
+    SET(SDL2_RELEASE 2.28.4)
     ExternalProject_Add(sdl2_ext
         # GIT_REPOSITORY "https://github.com/libsdl-org/SDL.git"
         # GIT_TAG "release-${SDL2_RELEASE}"
-        URL ${CMAKE_CURRENT_SOURCE_DIR}/cmake/SDL/SDL-release-2.26.2.zip
+        URL ${CMAKE_CURRENT_SOURCE_DIR}/cmake/SDL/SDL-release-2.28.4.zip
         GIT_SHALLOW true
         UPDATE_COMMAND ""
         DOWNLOAD_DIR ${CMAKE_BINARY_DIR}
@@ -56,7 +56,7 @@ IF (PDC_SDL2_DEPS_BUILD)
         ExternalProject_Add(zlib_ext
             # GIT_REPOSITORY "https://github.com/madler/zlib.git"
             # GIT_TAG "v1.2.11"
-            URL ${CMAKE_CURRENT_SOURCE_DIR}/cmake/zlib/zlib-1.2.11.zip
+            URL ${CMAKE_CURRENT_SOURCE_DIR}/cmake/zlib/zlib-1.3.zip
             GIT_SHALLOW true
             UPDATE_COMMAND ""
             DOWNLOAD_DIR ${CMAKE_BINARY_DIR}
@@ -93,7 +93,7 @@ IF (PDC_SDL2_DEPS_BUILD)
         ExternalProject_Add(freetype2_ext
             # GIT_REPOSITORY "https://git.savannah.gnu.org/git/freetype/freetype2.git"
             # GIT_TAG "VER-2-12-1"
-            URL ${CMAKE_CURRENT_SOURCE_DIR}/cmake/freetype2/freetype2-VER-2-12-1.zip
+            URL ${CMAKE_CURRENT_SOURCE_DIR}/cmake/freetype2/freetype2-VER-2-13-2.zip
             GIT_SHALLOW true
             UPDATE_COMMAND ""
             DOWNLOAD_DIR ${CMAKE_BINARY_DIR}
@@ -134,12 +134,12 @@ IF (PDC_SDL2_DEPS_BUILD)
             ENDIF()
         ENDIF()        
         
-        SET(SDL2_TTF_RELEASE 2.20.1)
+        SET(SDL2_TTF_RELEASE 2.20.2)
 
         ExternalProject_Add(sdl2_ttf_ext
             # GIT_REPOSITORY "https://github.com/libsdl-org/SDL_ttf.git"
             # GIT_TAG "release-${SDL2_TTF_RELEASE}"
-            URL ${CMAKE_CURRENT_SOURCE_DIR}/cmake/SDL_ttf/SDL_ttf-release-2.20.1.zip
+            URL ${CMAKE_CURRENT_SOURCE_DIR}/cmake/SDL_ttf/SDL_ttf-release-2.20.2.zip
             GIT_SHALLOW true
             PATCH_COMMAND cmake -E copy 
                 ${CMAKE_SOURCE_DIR}/cmake/sdl2_ttf/CMakeLists.txt 
