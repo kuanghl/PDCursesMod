@@ -8,7 +8,7 @@ endif()
 PROJECT(dosvga VERSION "${PROJECT_VERSION}" LANGUAGES C)
 MESSAGE(STATUS "${PROJECT_NAME} version: ${PROJECT_VERSION}")
 
-include(${CMAKE_CURRENT_SOURCE_DIR}/../cmake/project_common.cmake)
+include(${CMAKE_CURRENT_LIST_DIR}/../cmake/project_common.cmake)
 
 if(WATCOM)
     # this requires using the following toolchainfile file

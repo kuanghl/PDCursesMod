@@ -34,9 +34,9 @@ if(CURSES_FOUND)
 
         set(bin_name "${PROJECT_NAME}_${targ}")
         if(${targ} STREQUAL "tuidemo")
-            set(src_files ${CMAKE_CURRENT_SOURCE_DIR}/${dir}/tuidemo.c ${CMAKE_CURRENT_SOURCE_DIR}/${dir}/tui.c)
+            set(src_files ${CMAKE_CURRENT_LIST_DIR}/${dir}/tuidemo.c ${CMAKE_CURRENT_LIST_DIR}/${dir}/tui.c)
         else()
-            set(src_files ${CMAKE_CURRENT_SOURCE_DIR}/${dir}/${targ}.c)
+            set(src_files ${CMAKE_CURRENT_LIST_DIR}/${dir}/${targ}.c)
         endif()
 
         add_executable(${bin_name} ${src_files})

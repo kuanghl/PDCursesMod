@@ -21,7 +21,7 @@ include_directories (${osdir})
 
 
 if(WIN32 AND NOT WATCOM)
-    include(${CMAKE_CURRENT_SOURCE_DIR}/dll_version.cmake)
+    include(${CMAKE_CURRENT_LIST_DIR}/dll_version.cmake)
     list(APPEND pdc_src_files ${CMAKE_CURRENT_BINARY_DIR}/version.rc)
 
     add_definitions(-D_WIN32 -D_CRT_SECURE_NO_WARNINGS)
@@ -114,9 +114,9 @@ endif()
 macro (demo_app dir targ)
     set(bin_name "${PROJECT_NAME}_${targ}")
     if(${targ} STREQUAL "tuidemo")
-        set(src_files ${CMAKE_CURRENT_SOURCE_DIR}/${dir}/tuidemo.c ${CMAKE_CURRENT_SOURCE_DIR}/${dir}/tui.c)
+        set(src_files ${CMAKE_CURRENT_LIST_DIR}/${dir}/tuidemo.c ${CMAKE_CURRENT_LIST_DIR}/${dir}/tui.c)
     else()
-        set(src_files ${CMAKE_CURRENT_SOURCE_DIR}/${dir}/${targ}.c)
+        set(src_files ${CMAKE_CURRENT_LIST_DIR}/${dir}/${targ}.c)
     endif()
 
     add_executable(${bin_name} ${ARGV2} ${src_files})

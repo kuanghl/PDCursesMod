@@ -7,7 +7,7 @@ endif()
 
 set(CMAKE_MODULE_PATH "${CMAKE_MODULE_PATH}" "${CMAKE_SOURCE_DIR}/cmake")
 
-include (${CMAKE_CURRENT_SOURCE_DIR}/cmake/get_version.cmake)
+include (${CMAKE_CURRENT_LIST_DIR}/cmake/get_version.cmake)
 project(pdcurses VERSION "${CURSES_VERSION}" LANGUAGES C)
 
 if(MSVC)
@@ -18,12 +18,12 @@ endif()
 message(STATUS "Generator .............. ${CMAKE_GENERATOR}")
 message(STATUS "Build Type ............. ${CMAKE_BUILD_TYPE}")
 
-include(${CMAKE_CURRENT_SOURCE_DIR}/cmake/build_options.cmake)
-include(${CMAKE_CURRENT_SOURCE_DIR}/cmake/build_dependencies.cmake)
+include(${CMAKE_CURRENT_LIST_DIR}/cmake/build_options.cmake)
+include(${CMAKE_CURRENT_LIST_DIR}/cmake/build_dependencies.cmake)
 
 message(STATUS "PDC Version ............ ${PROJECT_VERSION}")
 
-include(${CMAKE_CURRENT_SOURCE_DIR}/cmake/gen_config_header.cmake)
+include(${CMAKE_CURRENT_LIST_DIR}/cmake/gen_config_header.cmake)
 
 file(GLOB pdcurses_src_files pdcurses/*.c)
 

@@ -9,7 +9,7 @@ endif()
 
 project(vt VERSION "${PROJECT_VERSION}" LANGUAGES C)
 
-include(${CMAKE_CURRENT_SOURCE_DIR}/../cmake/project_common.cmake)
+include(${CMAKE_CURRENT_LIST_DIR}/../cmake/project_common.cmake)
 
 if(DOS)
     string(APPEND CMAKE_C_FLAGS " -DDOS")
