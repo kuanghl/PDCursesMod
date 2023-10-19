@@ -138,11 +138,11 @@ if(PDC_SDL2_DEPS_BUILD)
             URL ${CMAKE_CURRENT_SOURCE_DIR}/cmake/SDL_ttf/SDL_ttf-release-2.20.2.zip
             GIT_SHALLOW true
             PATCH_COMMAND cmake -E copy 
-                ${CMAKE_SOURCE_DIR}/cmake/sdl2_ttf/CMakeLists.txt 
-                ${CMAKE_BINARY_DIR}/sdl2_ttf/CMakeLists.txt
+                ${CMAKE_CURRENT_SOURCE_DIR}/cmake/sdl2_ttf/CMakeLists.txt 
+                ${CMAKE_CURRENT_BINARY_DIR}/sdl2_ttf/CMakeLists.txt
             UPDATE_COMMAND ""
-            DOWNLOAD_DIR ${CMAKE_BINARY_DIR}
-            SOURCE_DIR ${CMAKE_BINARY_DIR}/sdl2_ttf
+            DOWNLOAD_DIR ${CMAKE_CURRENT_BINARY_DIR}
+            SOURCE_DIR ${CMAKE_CURRENT_BINARY_DIR}/sdl2_ttf
             BUILD_IN_SOURCE 0
             CMAKE_ARGS
                 ${SDL2_TTF_CMAKE_BUILD_OPTS}
