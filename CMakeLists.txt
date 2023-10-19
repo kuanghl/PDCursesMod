@@ -66,6 +66,6 @@ if(WIN32)
     add_subdirectory(vt)
 endif()
 
-add_custom_target(uninstall "${CMAKE_COMMAND}" -P "${CMAKE_SOURCE_DIR}/cmake/make_uninstall.cmake")
+add_custom_target(pdcurses_uninstall "${CMAKE_COMMAND}" -P "${CMAKE_SOURCE_DIR}/cmake/make_uninstall.cmake")
 
 set(CPACK_COMPONENTS_ALL applications)
