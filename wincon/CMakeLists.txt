@@ -7,7 +7,7 @@ endif()
 
 project(wincon VERSION "${PROJECT_VERSION}" LANGUAGES C)
 
-include(project_common)
+include(${CMAKE_CURRENT_SOURCE_DIR}/../cmake/project_common.cmake)
 
 demo_app(../demos calendar)
 demo_app(../demos firework)

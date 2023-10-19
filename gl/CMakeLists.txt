@@ -18,7 +18,7 @@ message(STATUS "SDL2_TTF_LIBRARY_DIR = ${SDL2_TTF_LIBRARY_DIR}")
 include_directories(${SDL2_INCLUDE_DIR} ${SDL2_TTF_INCLUDE_DIR})
 link_directories(${SDL2_LIBRARY_DIR} ${SDL2_TTF_LIBRARY_DIR})
 
-include(project_common)
+include(${CMAKE_CURRENT_SOURCE_DIR}/../cmake/project_common.cmake)
 
 macro (gl_app dir targ)
 

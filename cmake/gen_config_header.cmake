@@ -35,6 +35,6 @@ endif ()
 #################################
 # Target Arch                   #
 #################################
-include (target_arch)
+include (${CMAKE_SOURCE_DIR}/cmake/target_arch.cmake)
 get_target_arch(TARGET_ARCH)
 message(STATUS "Target ................. ${TARGET_ARCH}")

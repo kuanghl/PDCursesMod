@@ -21,7 +21,7 @@ include_directories (${osdir})
 
 
 if(WIN32 AND NOT WATCOM)
-    include(dll_version)
+    include(${CMAKE_CURRENT_SOURCE_DIR}/dll_version.cmake)
     list(APPEND pdc_src_files ${CMAKE_CURRENT_BINARY_DIR}/version.rc)
 
     add_definitions(-D_WIN32 -D_CRT_SECURE_NO_WARNINGS)
