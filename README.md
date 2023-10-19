@@ -65,5 +65,4 @@ cd vt/
 Maintainer
 ----------
 
-Bill Gray
-p&#x202e;&ocirc;&#xe7;.&ouml;tulp&#x165;c&eacute;j&ocirc;&#x159;p&#x40;ot&uacute;l&#x202c;m
+...

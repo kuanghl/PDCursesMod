@@ -33,49 +33,37 @@ if(CYGWIN)
 endif()
 
 if(PDC_DOS_BUILD) # currently requires a unique toolchain file
-
     add_subdirectory(dos)
+endif()
 
-elseif(PDC_DOSVGA_BUILD) # currently requires a unique toolchain file
-
+if(PDC_DOSVGA_BUILD) # currently requires a unique toolchain file
     add_subdirectory(dosvga)
+endif()
 
-elseif(PDC_DOSVT_BUILD) # currently requires a unique toolchain file
-
-    add_subdirectory(vt)
-
-elseif(PDC_OS2_BUILD) # currently requires a unique toolchain file
-
+if(PDC_OS2_BUILD) # currently requires a unique toolchain file
     add_subdirectory(os2)
+endif()
     
-else()
-
+if(UNIX)
     add_subdirectory(ncurses)
+endif()
     
-    if(PDC_SDL2_BUILD)
-    
-        add_subdirectory(sdl2)
-        
-    endif()
+if(PDC_SDL2_BUILD)   
+    add_subdirectory(sdl2)
+endif()
 
-    if(PDC_GL_BUILD)
-    
-        add_subdirectory(gl)
-        
-    endif()
+if(PDC_GL_BUILD)    
+    add_subdirectory(gl)         
+endif()
 
-    if(UNIX)
-        add_subdirectory(vt)
-    endif()
+if(UNIX OR WIN32 OR PDC_DOSVT_BUILD)
+    add_subdirectory(vt)
+endif()
 
-    if(WIN32)
-    
-        add_subdirectory(wincon)
-        add_subdirectory(wingui)
-        add_subdirectory(vt)
-        
-    endif()
-   
+if(WIN32)
+    add_subdirectory(wincon)
+    add_subdirectory(wingui)
+    add_subdirectory(vt)
 endif()
 
 add_custom_target(uninstall "${CMAKE_COMMAND}" -P "${CMAKE_SOURCE_DIR}/cmake/make_uninstall.cmake")

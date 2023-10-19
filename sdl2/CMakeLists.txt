@@ -47,6 +47,7 @@ macro (sdl2_app dir targ)
     endif()
 
     add_dependencies(${bin_name} ${PDCURSE_PROJ})
+    # set bin_name to targ
     set_target_properties(${bin_name} PROPERTIES OUTPUT_NAME ${targ})
 
     install(TARGETS ${bin_name} RUNTIME DESTINATION ${PDCURSES_DIST}/bin/${PROJECT_NAME} COMPONENT applications)
