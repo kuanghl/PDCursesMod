@@ -1,12 +1,12 @@
 message(STATUS "**** ${PROJECT_NAME} ****")
 
-set(PDCURSES_SRCDIR ${CMAKE_SOURCE_DIR})
+set(PDCURSES_SRCDIR ${CMAKE_CURRENT_LIST_DIR}/../)
 set(PDCURSES_DIST ${CMAKE_INSTALL_PREFIX}/${CMAKE_BUILD_TYPE})
 
 set(osdir ${PDCURSES_SRCDIR}/${PROJECT_NAME})
 set(demodir ${PDCURSES_SRCDIR}/demos)
 
-set(pdc_src_files
+file(GLOB pdc_src_files
     ${osdir}/pdcclip.c
     ${osdir}/pdcdisp.c
     ${osdir}/pdcgetsc.c
