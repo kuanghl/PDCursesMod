@@ -22,14 +22,14 @@ if (PDC_UTF8)
     add_definitions(-DPDC_FORCE_UTF8)
 endif (PDC_UTF8)
 if (PDC_CHTYPE_32)
-    add_definitions-DCHTYPE_32)
+    add_definitions(-DCHTYPE_32)
 endif (PDC_CHTYPE_32)
 if(PDCDEBUG)
-    add_definitions-DPDCDEBUG)
+    add_definitions(-DPDCDEBUG)
 endif(PDCDEBUG)
 
 if ("${CMAKE_BUILD_TYPE}" STREQUAL "Debug")
-    add_definitions-D_DEBUG)
+    add_definitions(-D_DEBUG)
 endif ()
 
 #################################
