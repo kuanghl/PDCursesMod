@@ -12,8 +12,8 @@ if(PDC_SDL2_DEPS_BUILD)
         URL ${CMAKE_CURRENT_SOURCE_DIR}/cmake/SDL/SDL-release-2.28.4.zip
         GIT_SHALLOW true
         UPDATE_COMMAND ""
-        DOWNLOAD_DIR ${CMAKE_BINARY_DIR}
-        SOURCE_DIR ${CMAKE_BINARY_DIR}/SDL2-${SDL2_RELEASE}
+        DOWNLOAD_DIR ${CMAKE_CURRENT_BINARY_DIR}
+        SOURCE_DIR ${CMAKE_CURRENT_BINARY_DIR}/SDL2-${SDL2_RELEASE}
         BUILD_IN_SOURCE 0
         CMAKE_ARGS
             ${SDL_CMAKE_BUILD_OPTS}
@@ -56,8 +56,8 @@ if(PDC_SDL2_DEPS_BUILD)
             URL ${CMAKE_CURRENT_SOURCE_DIR}/cmake/zlib/zlib-1.3.zip
             GIT_SHALLOW true
             UPDATE_COMMAND ""
-            DOWNLOAD_DIR ${CMAKE_BINARY_DIR}
-            SOURCE_DIR ${CMAKE_BINARY_DIR}/zlib
+            DOWNLOAD_DIR ${CMAKE_CURRENT_BINARY_DIR}
+            SOURCE_DIR ${CMAKE_CURRENT_BINARY_DIR}/zlib
             BUILD_IN_SOURCE 1
             CMAKE_ARGS
                 ${ZLIB_CMAKE_BUILD_OPTS}
@@ -93,8 +93,8 @@ if(PDC_SDL2_DEPS_BUILD)
             URL ${CMAKE_CURRENT_SOURCE_DIR}/cmake/freetype2/freetype2-VER-2-13-2.zip
             GIT_SHALLOW true
             UPDATE_COMMAND ""
-            DOWNLOAD_DIR ${CMAKE_BINARY_DIR}
-            SOURCE_DIR ${CMAKE_BINARY_DIR}/freetype2
+            DOWNLOAD_DIR ${CMAKE_CURRENT_BINARY_DIR}
+            SOURCE_DIR ${CMAKE_CURRENT_BINARY_DIR}/freetype2
             BUILD_IN_SOURCE 0
             CMAKE_ARGS
                 ${FT2_CMAKE_BUILD_OPTS}
