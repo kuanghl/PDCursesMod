@@ -18,7 +18,7 @@ message(STATUS "SDL2_TTF_LIBRARY_DIR = ${SDL2_TTF_LIBRARY_DIR}")
 include_directories(${SDL2_INCLUDE_DIR} ${SDL2_TTF_INCLUDE_DIR})
 link_directories(${SDL2_LIBRARY_DIR} ${SDL2_TTF_LIBRARY_DIR})
 
-include(${CMAKE_CURRENT_LIST_DIR}/../cmake/project_common.cmake)
+include(project_common)
 
 macro (gl_app dir targ)
 
@@ -60,7 +60,7 @@ gl_app(../demos xmas)
 
 if(PDC_SDL2_DEPS_BUILD)
     add_dependencies(${PDCURSE_PROJ} sdl2_ext sdl2_ttf_ext)
-    target_link_libraries(${PDCURSE_PROJ} "${SDL2_LIBRARIES};${SDL2_TTF_LIBRARY};${FT2_LIBRARY};${ZLIB_LIBRARY};${SDL2_DEP_LIBRARIES}")
+    target_link_libraries(${PDCURSE_PROJ} ${EXTRA_LIBS} "${SDL2_LIBRARIES};${SDL2_TTF_LIBRARY};${FT2_LIBRARY};${ZLIB_LIBRARY};${SDL2_DEP_LIBRARIES}")
     target_include_directories(${PDCURSE_PROJ} PUBLIC ${SDL2_INCLUDE_DIR} ${SDL2_TTF_INCLUDE_DIR})
 endif()
 
