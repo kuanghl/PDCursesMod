@@ -1,1 +1,0 @@
-/usr/bin/cc -Os -DNDEBUG CMakeFiles/showfont.dir/showfont.c.o -o showfont   -L/usr/local/MinSizeRel/lib  -Wl,-rpath,/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ttf_ext-prefix/src/sdl2_ttf_ext-build:/usr/local/MinSizeRel/lib: libSDL2_ttf.so -lSDL2main -lfreetype -lz -lSDL2-2.0 -lfreetype -lz 

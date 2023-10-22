@@ -1,1 +1,0 @@
-/usr/bin/cc -Os -DNDEBUG CMakeFiles/vt_ptest.dir/__/demos/ptest.c.o -o ptest  -Wl,-rpath,/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/vt: libpdcurses.so 

@@ -1,9 +1,0 @@
-/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/freetype2_ext-prefix/src/freetype2_ext-build/CMakeFiles/install/strip.dir
-/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/freetype2_ext-prefix/src/freetype2_ext-build/CMakeFiles/install/local.dir
-/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/freetype2_ext-prefix/src/freetype2_ext-build/CMakeFiles/edit_cache.dir
-/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/freetype2_ext-prefix/src/freetype2_ext-build/CMakeFiles/package_source.dir
-/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/freetype2_ext-prefix/src/freetype2_ext-build/CMakeFiles/install.dir
-/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/freetype2_ext-prefix/src/freetype2_ext-build/CMakeFiles/list_install_components.dir
-/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/freetype2_ext-prefix/src/freetype2_ext-build/CMakeFiles/rebuild_cache.dir
-/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/freetype2_ext-prefix/src/freetype2_ext-build/CMakeFiles/package.dir
-/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/freetype2_ext-prefix/src/freetype2_ext-build/CMakeFiles/freetype.dir

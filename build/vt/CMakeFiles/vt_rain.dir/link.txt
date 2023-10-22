@@ -1,1 +1,0 @@
-/usr/bin/cc -Os -DNDEBUG CMakeFiles/vt_rain.dir/__/demos/rain.c.o -o rain  -Wl,-rpath,/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/vt: libpdcurses.so 

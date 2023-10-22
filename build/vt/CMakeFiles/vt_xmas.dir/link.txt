@@ -1,1 +1,0 @@
-/usr/bin/cc -Os -DNDEBUG CMakeFiles/vt_xmas.dir/__/demos/xmas.c.o -o xmas  -Wl,-rpath,/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/vt: libpdcurses.so 

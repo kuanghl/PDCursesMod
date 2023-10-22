@@ -1,3 +1,0 @@
-repository='external project URL'
-module='/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/cmake/SDL/SDL-release-2.28.4.zip'
-tag=''

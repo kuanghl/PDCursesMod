@@ -1,1 +1,0 @@
-/usr/bin/cc -Os -DNDEBUG CMakeFiles/vt_tuidemo.dir/__/demos/tuidemo.c.o CMakeFiles/vt_tuidemo.dir/__/demos/tui.c.o -o tuidemo  -Wl,-rpath,/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/vt: libpdcurses.so 

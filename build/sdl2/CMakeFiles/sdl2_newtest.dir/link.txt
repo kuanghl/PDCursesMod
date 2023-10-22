@@ -1,1 +1,0 @@
-/usr/bin/cc -Os -DNDEBUG CMakeFiles/sdl2_newtest.dir/__/demos/newtest.c.o -o newtest   -L/usr/local/MinSizeRel/lib  -Wl,-rpath,/usr/local/MinSizeRel/lib:/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2: libpdcurses.so -lSDL2main -lSDL2-2.0 -ldl 

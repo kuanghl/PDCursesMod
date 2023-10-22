@@ -1,5 +1,0 @@
-/usr/local/MinSizeRel/include/SDL2_ttf/SDL_ttf.h
-/usr/local/MinSizeRel/lib/libSDL2_ttf-static.a
-/usr/local/MinSizeRel/lib/libSDL2_ttf.so
-/usr/local/MinSizeRel/bin/showfont
-/usr/local/MinSizeRel/bin/glfont
