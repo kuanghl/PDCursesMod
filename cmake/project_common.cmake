@@ -86,17 +86,17 @@ if(PDC_BUILD_SHARED)
 
     if(${PROJECT_NAME} STREQUAL "sdl2")
         if(PDC_WIDE OR PDC_UTF8)
-            target_link_libraries(${PDCURSE_PROJ} PUBLIC ${EXTRA_LIBS}
+            target_link_libraries(${PDCURSE_PROJ} ${EXTRA_LIBS}
                 ${SDL2_LIBRARIES} ${SDL2_TTF_LIBRARY} ${FT2_LIBRARY} ${ZLIB_LIBRARY}
                 ${SDL2_DEP_LIBRARIES})
         else()
-            target_link_libraries(${PDCURSE_PROJ} PUBLIC ${EXTRA_LIBS}
+            target_link_libraries(${PDCURSE_PROJ} ${EXTRA_LIBS}
                 ${SDL2_LIBRARIES} ${SDL2_DEP_LIBRARIES})
         endif()
     elseif((${PROJECT_NAME} STREQUAL "wincon") OR (${PROJECT_NAME} STREQUAL "wingui"))
-        target_link_libraries(${PDCURSE_PROJ} PUBLIC ${EXTRA_LIBS} ${WINCON_WINGUI_DEP_LIBS})
+        target_link_libraries(${PDCURSE_PROJ} ${EXTRA_LIBS} ${WINCON_WINGUI_DEP_LIBS})
     else()
-        target_link_libraries(${PDCURSE_PROJ} PUBLIC ${EXTRA_LIBS})
+        target_link_libraries(${PDCURSE_PROJ} ${EXTRA_LIBS})
     endif()
 
     install(TARGETS ${PDCURSE_PROJ}
