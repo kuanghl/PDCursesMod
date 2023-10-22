@@ -1,0 +1,12 @@
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/install/strip.dir
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/uninstall.dir
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/install.dir
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/list_install_components.dir
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/rebuild_cache.dir
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/SDL2_test.dir
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/SDL2-static.dir
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/SDL2.dir
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/SDL2main.dir
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/install/local.dir
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/sdl_headers_copy.dir
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/edit_cache.dir

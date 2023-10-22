@@ -1,0 +1,1 @@
+/usr/bin/cc -Os -DNDEBUG CMakeFiles/vt_worm.dir/__/demos/worm.c.o -o worm  -Wl,-rpath,/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/vt: libpdcurses.so 

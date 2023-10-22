@@ -1,0 +1,10 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/gl_firework.dir/__/demos/firework.c.o"
+  "firework"
+  "firework.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/gl_firework.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

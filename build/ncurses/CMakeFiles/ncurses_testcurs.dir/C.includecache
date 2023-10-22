@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/demos/testcurs.c
+stdio.h
+-
+stdlib.h
+-
+ctype.h
+-
+string.h
+-
+curses.h
+-
+locale.h
+-
+wchar.h
+-
+

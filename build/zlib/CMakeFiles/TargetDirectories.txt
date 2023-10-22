@@ -1,0 +1,13 @@
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/zlib/CMakeFiles/install/local.dir
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/zlib/CMakeFiles/install.dir
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/zlib/CMakeFiles/list_install_components.dir
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/zlib/CMakeFiles/rebuild_cache.dir
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/zlib/CMakeFiles/edit_cache.dir
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/zlib/CMakeFiles/test.dir
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/zlib/CMakeFiles/install/strip.dir
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/zlib/CMakeFiles/example64.dir
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/zlib/CMakeFiles/minigzip.dir
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/zlib/CMakeFiles/example.dir
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/zlib/CMakeFiles/zlibstatic.dir
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/zlib/CMakeFiles/minigzip64.dir
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/zlib/CMakeFiles/zlib.dir

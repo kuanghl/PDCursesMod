@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -Os -DNDEBUG -shared -Wl,-soname,libSDL2_ttf.so -o libSDL2_ttf.so CMakeFiles/SDL2_ttf.dir/SDL_ttf.c.o   -L/usr/local/MinSizeRel/lib  -Wl,-rpath,/usr/local/MinSizeRel/lib: -lSDL2-2.0 -lfreetype -lz 

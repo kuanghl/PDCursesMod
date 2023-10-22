@@ -1,0 +1,13 @@
+prefix=/usr/local/MinSizeRel
+exec_prefix=/usr/local/MinSizeRel
+libdir=/usr/local/MinSizeRel/lib
+sharedlibdir=/usr/local/MinSizeRel/lib
+includedir=/usr/local/MinSizeRel/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

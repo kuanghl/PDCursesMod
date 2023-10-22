@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../curses.h
+stdarg.h
+-
+stddef.h
+-
+stdio.h
+-
+wchar.h
+-
+stdbool.h
+-
+stdint.h
+-
+
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/demos/worm.c
+curses.h
+-
+stdlib.h
+-
+time.h
+-
+

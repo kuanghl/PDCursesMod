@@ -1,0 +1,1 @@
+/usr/bin/cc -Os -DNDEBUG CMakeFiles/gl_ozdemo.dir/__/demos/ozdemo.c.o -o ozdemo   -L/usr/local/MinSizeRel/lib  -Wl,-rpath,/usr/local/MinSizeRel/lib:/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/gl: libpdcurses.so -lSDL2main -lSDL2-2.0 -lSDL2_ttf -lfreetype -lz -ldl 

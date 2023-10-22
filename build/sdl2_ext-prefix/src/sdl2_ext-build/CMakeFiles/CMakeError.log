@@ -1,0 +1,1202 @@
+Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_X86 failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fce7d/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_fce7d.dir/build.make CMakeFiles/cmTC_fce7d.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fce7d.dir/src.c.o
+/usr/bin/cc   -DCHECK_CPU_ARCHITECTURE_X86 -o CMakeFiles/cmTC_fce7d.dir/src.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/src.c
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/src.c:6:3: error: ‘choke’ undeclared (first use in this function)
+   choke
+   ^~~~~
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/src.c:6:3: note: each undeclared identifier is reported only once for each function it appears in
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/src.c:8:1: error: expected ‘;’ before ‘}’ token
+ }
+ ^
+make[4]: *** [CMakeFiles/cmTC_fce7d.dir/build.make:85: CMakeFiles/cmTC_fce7d.dir/src.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_fce7d/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+int main(int argc, char *argv[]) {
+#if defined(__i386__) || defined(__i486__) || defined(__i586__) || defined(__i686__) ||defined( __i386) || defined(_M_IX86)
+  return 0;
+#else
+  choke
+#endif
+}
+
+Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_ARM32 failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f0e96/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_f0e96.dir/build.make CMakeFiles/cmTC_f0e96.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0e96.dir/src.c.o
+/usr/bin/cc   -DCHECK_CPU_ARCHITECTURE_ARM32 -o CMakeFiles/cmTC_f0e96.dir/src.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/src.c
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/src.c:6:3: error: ‘choke’ undeclared (first use in this function)
+   choke
+   ^~~~~
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/src.c:6:3: note: each undeclared identifier is reported only once for each function it appears in
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/src.c:8:1: error: expected ‘;’ before ‘}’ token
+ }
+ ^
+make[4]: *** [CMakeFiles/cmTC_f0e96.dir/build.make:85: CMakeFiles/cmTC_f0e96.dir/src.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_f0e96/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+int main(int argc, char *argv[]) {
+#if defined(__arm__) || defined(_M_ARM)
+  return 0;
+#else
+  choke
+#endif
+}
+
+Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_ARM64 failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3e3a1/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_3e3a1.dir/build.make CMakeFiles/cmTC_3e3a1.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3e3a1.dir/src.c.o
+/usr/bin/cc   -DCHECK_CPU_ARCHITECTURE_ARM64 -o CMakeFiles/cmTC_3e3a1.dir/src.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/src.c
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/src.c:6:3: error: ‘choke’ undeclared (first use in this function)
+   choke
+   ^~~~~
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/src.c:6:3: note: each undeclared identifier is reported only once for each function it appears in
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/src.c:8:1: error: expected ‘;’ before ‘}’ token
+ }
+ ^
+make[4]: *** [CMakeFiles/cmTC_3e3a1.dir/build.make:85: CMakeFiles/cmTC_3e3a1.dir/src.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_3e3a1/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+int main(int argc, char *argv[]) {
+#if defined(__aarch64__) || defined(_M_ARM64)
+  return 0;
+#else
+  choke
+#endif
+}
+
+Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_LOONGARCH64 failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ab92c/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_ab92c.dir/build.make CMakeFiles/cmTC_ab92c.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab92c.dir/src.c.o
+/usr/bin/cc   -DCHECK_CPU_ARCHITECTURE_LOONGARCH64 -o CMakeFiles/cmTC_ab92c.dir/src.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/src.c
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/src.c:6:3: error: ‘choke’ undeclared (first use in this function)
+   choke
+   ^~~~~
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/src.c:6:3: note: each undeclared identifier is reported only once for each function it appears in
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/src.c:8:1: error: expected ‘;’ before ‘}’ token
+ }
+ ^
+make[4]: *** [CMakeFiles/cmTC_ab92c.dir/build.make:85: CMakeFiles/cmTC_ab92c.dir/src.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_ab92c/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+int main(int argc, char *argv[]) {
+#if defined(__loongarch64)
+  return 0;
+#else
+  choke
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_ALTIVEC_H_HDR failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8985a/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_8985a.dir/build.make CMakeFiles/cmTC_8985a.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8985a.dir/src.c.o
+/usr/bin/cc   -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos" -DHAVE_ALTIVEC_H_HDR -maltivec -o CMakeFiles/cmTC_8985a.dir/src.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option ‘-maltivec’; did you mean ‘-mglibc’?
+make[4]: *** [CMakeFiles/cmTC_8985a.dir/build.make:85: CMakeFiles/cmTC_8985a.dir/src.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_8985a/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+          #include <altivec.h>
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test CPU_SUPPORTS_ALTIVEC failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2e138/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_2e138.dir/build.make CMakeFiles/cmTC_2e138.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2e138.dir/src.c.o
+/usr/bin/cc   -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos" -DCPU_SUPPORTS_ALTIVEC -maltivec -o CMakeFiles/cmTC_2e138.dir/src.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option ‘-maltivec’; did you mean ‘-mglibc’?
+make[4]: *** [CMakeFiles/cmTC_2e138.dir/build.make:85: CMakeFiles/cmTC_2e138.dir/src.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_2e138/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { return 0; }
+Determining if the strlcpy exist failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b10bd/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_b10bd.dir/build.make CMakeFiles/cmTC_b10bd.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b10bd.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_b10bd.dir/CheckSymbolExists.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘strlcpy’ undeclared (first use in this function); did you mean ‘strncpy’?
+   return ((int*)(&strlcpy))[argc];
+                   ^~~~~~~
+                   strncpy
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+make[4]: *** [CMakeFiles/cmTC_b10bd.dir/build.make:85: CMakeFiles/cmTC_b10bd.dir/CheckSymbolExists.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_b10bd/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+File /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcpy
+  return ((int*)(&strlcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strlcat exist failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7a5e6/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_7a5e6.dir/build.make CMakeFiles/cmTC_7a5e6.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a5e6.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_7a5e6.dir/CheckSymbolExists.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘strlcat’ undeclared (first use in this function); did you mean ‘strncat’?
+   return ((int*)(&strlcat))[argc];
+                   ^~~~~~~
+                   strncat
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+make[4]: *** [CMakeFiles/cmTC_7a5e6.dir/build.make:85: CMakeFiles/cmTC_7a5e6.dir/CheckSymbolExists.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_7a5e6/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+File /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcat
+  return ((int*)(&strlcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _strrev exist failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_746dd/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_746dd.dir/build.make CMakeFiles/cmTC_746dd.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_746dd.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_746dd.dir/CheckSymbolExists.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘_strrev’ undeclared (first use in this function); did you mean ‘strsep’?
+   return ((int*)(&_strrev))[argc];
+                   ^~~~~~~
+                   strsep
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+make[4]: *** [CMakeFiles/cmTC_746dd.dir/build.make:85: CMakeFiles/cmTC_746dd.dir/CheckSymbolExists.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_746dd/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+File /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strrev
+  return ((int*)(&_strrev))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _strupr exist failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_65ec1/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_65ec1.dir/build.make CMakeFiles/cmTC_65ec1.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_65ec1.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_65ec1.dir/CheckSymbolExists.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘_strupr’ undeclared (first use in this function); did you mean ‘strstr’?
+   return ((int*)(&_strupr))[argc];
+                   ^~~~~~~
+                   strstr
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+make[4]: *** [CMakeFiles/cmTC_65ec1.dir/build.make:85: CMakeFiles/cmTC_65ec1.dir/CheckSymbolExists.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_65ec1/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+File /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strupr
+  return ((int*)(&_strupr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _strlwr exist failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a9551/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_a9551.dir/build.make CMakeFiles/cmTC_a9551.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a9551.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_a9551.dir/CheckSymbolExists.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘_strlwr’ undeclared (first use in this function); did you mean ‘strlen’?
+   return ((int*)(&_strlwr))[argc];
+                   ^~~~~~~
+                   strlen
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+make[4]: *** [CMakeFiles/cmTC_a9551.dir/build.make:85: CMakeFiles/cmTC_a9551.dir/CheckSymbolExists.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_a9551/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+File /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strlwr
+  return ((int*)(&_strlwr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the itoa exist failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_efdb5/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_efdb5.dir/build.make CMakeFiles/cmTC_efdb5.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_efdb5.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_efdb5.dir/CheckSymbolExists.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘itoa’ undeclared (first use in this function); did you mean ‘atol’?
+   return ((int*)(&itoa))[argc];
+                   ^~~~
+                   atol
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+make[4]: *** [CMakeFiles/cmTC_efdb5.dir/build.make:85: CMakeFiles/cmTC_efdb5.dir/CheckSymbolExists.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_efdb5/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+File /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef itoa
+  return ((int*)(&itoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _ltoa exist failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e3c78/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_e3c78.dir/build.make CMakeFiles/cmTC_e3c78.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e3c78.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_e3c78.dir/CheckSymbolExists.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘_ltoa’ undeclared (first use in this function)
+   return ((int*)(&_ltoa))[argc];
+                   ^~~~~
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+make[4]: *** [CMakeFiles/cmTC_e3c78.dir/build.make:85: CMakeFiles/cmTC_e3c78.dir/CheckSymbolExists.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_e3c78/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+File /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _ltoa
+  return ((int*)(&_ltoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _uitoa exist failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_98d0e/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_98d0e.dir/build.make CMakeFiles/cmTC_98d0e.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_98d0e.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_98d0e.dir/CheckSymbolExists.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘_uitoa’ undeclared (first use in this function)
+   return ((int*)(&_uitoa))[argc];
+                   ^~~~~~
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+make[4]: *** [CMakeFiles/cmTC_98d0e.dir/build.make:85: CMakeFiles/cmTC_98d0e.dir/CheckSymbolExists.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_98d0e/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+File /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _uitoa
+  return ((int*)(&_uitoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _ultoa exist failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cde54/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_cde54.dir/build.make CMakeFiles/cmTC_cde54.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cde54.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_cde54.dir/CheckSymbolExists.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘_ultoa’ undeclared (first use in this function)
+   return ((int*)(&_ultoa))[argc];
+                   ^~~~~~
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+make[4]: *** [CMakeFiles/cmTC_cde54.dir/build.make:85: CMakeFiles/cmTC_cde54.dir/CheckSymbolExists.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_cde54/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+File /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _ultoa
+  return ((int*)(&_ultoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _i64toa exist failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_99d30/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_99d30.dir/build.make CMakeFiles/cmTC_99d30.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_99d30.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_99d30.dir/CheckSymbolExists.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘_i64toa’ undeclared (first use in this function); did you mean ‘be64toh’?
+   return ((int*)(&_i64toa))[argc];
+                   ^~~~~~~
+                   be64toh
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+make[4]: *** [CMakeFiles/cmTC_99d30.dir/build.make:85: CMakeFiles/cmTC_99d30.dir/CheckSymbolExists.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_99d30/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+File /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _i64toa
+  return ((int*)(&_i64toa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _ui64toa exist failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_17b68/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_17b68.dir/build.make CMakeFiles/cmTC_17b68.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_17b68.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_17b68.dir/CheckSymbolExists.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘_ui64toa’ undeclared (first use in this function); did you mean ‘be64toh’?
+   return ((int*)(&_ui64toa))[argc];
+                   ^~~~~~~~
+                   be64toh
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+make[4]: *** [CMakeFiles/cmTC_17b68.dir/build.make:85: CMakeFiles/cmTC_17b68.dir/CheckSymbolExists.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_17b68/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+File /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _ui64toa
+  return ((int*)(&_ui64toa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _stricmp exist failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_02e32/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_02e32.dir/build.make CMakeFiles/cmTC_02e32.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_02e32.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_02e32.dir/CheckSymbolExists.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘_stricmp’ undeclared (first use in this function); did you mean ‘strncmp’?
+   return ((int*)(&_stricmp))[argc];
+                   ^~~~~~~~
+                   strncmp
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+make[4]: *** [CMakeFiles/cmTC_02e32.dir/build.make:85: CMakeFiles/cmTC_02e32.dir/CheckSymbolExists.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_02e32/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+File /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _stricmp
+  return ((int*)(&_stricmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _strnicmp exist failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_88ff0/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_88ff0.dir/build.make CMakeFiles/cmTC_88ff0.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88ff0.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_88ff0.dir/CheckSymbolExists.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘_strnicmp’ undeclared (first use in this function); did you mean ‘strncmp’?
+   return ((int*)(&_strnicmp))[argc];
+                   ^~~~~~~~~
+                   strncmp
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+make[4]: *** [CMakeFiles/cmTC_88ff0.dir/build.make:85: CMakeFiles/cmTC_88ff0.dir/CheckSymbolExists.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_88ff0/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+File /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strnicmp
+  return ((int*)(&_strnicmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _wcsdup exist failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a42bb/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_a42bb.dir/build.make CMakeFiles/cmTC_a42bb.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a42bb.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_a42bb.dir/CheckSymbolExists.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘_wcsdup’ undeclared (first use in this function); did you mean ‘wcsdup’?
+   return ((int*)(&_wcsdup))[argc];
+                   ^~~~~~~
+                   wcsdup
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+make[4]: *** [CMakeFiles/cmTC_a42bb.dir/build.make:85: CMakeFiles/cmTC_a42bb.dir/CheckSymbolExists.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_a42bb/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+File /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _wcsdup
+  return ((int*)(&_wcsdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcslcat exist failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1f1ea/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_1f1ea.dir/build.make CMakeFiles/cmTC_1f1ea.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1f1ea.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_1f1ea.dir/CheckSymbolExists.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘wcslcat’ undeclared (first use in this function); did you mean ‘wcsncat’?
+   return ((int*)(&wcslcat))[argc];
+                   ^~~~~~~
+                   wcsncat
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+make[4]: *** [CMakeFiles/cmTC_1f1ea.dir/build.make:85: CMakeFiles/cmTC_1f1ea.dir/CheckSymbolExists.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_1f1ea/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+File /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslcat
+  return ((int*)(&wcslcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcslcpy exist failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_59527/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_59527.dir/build.make CMakeFiles/cmTC_59527.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_59527.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_59527.dir/CheckSymbolExists.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘wcslcpy’ undeclared (first use in this function); did you mean ‘wcsncpy’?
+   return ((int*)(&wcslcpy))[argc];
+                   ^~~~~~~
+                   wcsncpy
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+make[4]: *** [CMakeFiles/cmTC_59527.dir/build.make:85: CMakeFiles/cmTC_59527.dir/CheckSymbolExists.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_59527/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+File /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslcpy
+  return ((int*)(&wcslcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _wcsicmp exist failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_36cc9/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_36cc9.dir/build.make CMakeFiles/cmTC_36cc9.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36cc9.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_36cc9.dir/CheckSymbolExists.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘_wcsicmp’ undeclared (first use in this function); did you mean ‘wcsncmp’?
+   return ((int*)(&_wcsicmp))[argc];
+                   ^~~~~~~~
+                   wcsncmp
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+make[4]: *** [CMakeFiles/cmTC_36cc9.dir/build.make:85: CMakeFiles/cmTC_36cc9.dir/CheckSymbolExists.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_36cc9/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+File /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _wcsicmp
+  return ((int*)(&_wcsicmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _wcsnicmp exist failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3825a/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_3825a.dir/build.make CMakeFiles/cmTC_3825a.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3825a.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_3825a.dir/CheckSymbolExists.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: ‘_wcsnicmp’ undeclared (first use in this function); did you mean ‘wcsncmp’?
+   return ((int*)(&_wcsnicmp))[argc];
+                   ^~~~~~~~~
+                   wcsncmp
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+make[4]: *** [CMakeFiles/cmTC_3825a.dir/build.make:85: CMakeFiles/cmTC_3825a.dir/CheckSymbolExists.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_3825a/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+File /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _wcsnicmp
+  return ((int*)(&_wcsnicmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysctlbyname exist failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_85263/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_85263.dir/build.make CMakeFiles/cmTC_85263.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_85263.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_85263.dir/CheckSymbolExists.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+In file included from /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:0:
+/usr/include/x86_64-linux-gnu/sys/sysctl.h:21:2: warning: #warning "The <sys/sysctl.h> header is deprecated and will be removed." [-Wcpp]
+ #warning "The <sys/sysctl.h> header is deprecated and will be removed."
+  ^~~~~~~
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:9:19: error: ‘sysctlbyname’ undeclared (first use in this function); did you mean ‘sysctl’?
+   return ((int*)(&sysctlbyname))[argc];
+                   ^~~~~~~~~~~~
+                   sysctl
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:9:19: note: each undeclared identifier is reported only once for each function it appears in
+make[4]: *** [CMakeFiles/cmTC_85263.dir/build.make:85: CMakeFiles/cmTC_85263.dir/CheckSymbolExists.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_85263/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+File /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/sysctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysctlbyname
+  return ((int*)(&sysctlbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the elf_aux_info exist failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f2127/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_f2127.dir/build.make CMakeFiles/cmTC_f2127.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2127.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_f2127.dir/CheckSymbolExists.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘elf_aux_info’ undeclared (first use in this function)
+   return ((int*)(&elf_aux_info))[argc];
+                   ^~~~~~~~~~~~
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[4]: *** [CMakeFiles/cmTC_f2127.dir/build.make:85: CMakeFiles/cmTC_f2127.dir/CheckSymbolExists.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_f2127/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+File /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/auxv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef elf_aux_info
+  return ((int*)(&elf_aux_info))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function iconv_open exists in the iconv failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_39be0/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_39be0.dir/build.make CMakeFiles/cmTC_39be0.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39be0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos" -DCHECK_FUNCTION_EXISTS=iconv_open  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_39be0.dir/CheckFunctionExists.c.o -c /usr/local/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_39be0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39be0.dir/link.txt --verbose=1
+/usr/bin/cc  -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos" -DCHECK_FUNCTION_EXISTS=iconv_open  -D_GNU_SOURCE=1 CMakeFiles/cmTC_39be0.dir/CheckFunctionExists.c.o -o cmTC_39be0  -liconv 
+/usr/bin/ld: cannot find -liconv
+collect2: error: ld returned 1 exit status
+make[4]: *** [CMakeFiles/cmTC_39be0.dir/build.make:106: cmTC_39be0] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_39be0/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the alloca exist failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_12132/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_12132.dir/build.make CMakeFiles/cmTC_12132.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12132.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_12132.dir/CheckSymbolExists.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘alloca’ undeclared (first use in this function); did you mean ‘valloc’?
+   return ((int*)(&alloca))[argc];
+                   ^~~~~~
+                   valloc
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[4]: *** [CMakeFiles/cmTC_12132.dir/build.make:85: CMakeFiles/cmTC_12132.dir/CheckSymbolExists.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_12132/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+File /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef alloca
+  return ((int*)(&alloca))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the dlopen exist failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_47f42/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_47f42.dir/build.make CMakeFiles/cmTC_47f42.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_47f42.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos"  -o CMakeFiles/cmTC_47f42.dir/CheckSymbolExists.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_47f42
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47f42.dir/link.txt --verbose=1
+/usr/bin/cc  -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos"  CMakeFiles/cmTC_47f42.dir/CheckSymbolExists.c.o -o cmTC_47f42 
+/usr/bin/ld: CMakeFiles/cmTC_47f42.dir/CheckSymbolExists.c.o: in function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `dlopen'
+collect2: error: ld returned 1 exit status
+make[4]: *** [CMakeFiles/cmTC_47f42.dir/build.make:106: cmTC_47f42] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_47f42/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+File /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlopen
+  return ((int*)(&dlopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file audio/audiolib.h exists failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_763c1/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_763c1.dir/build.make CMakeFiles/cmTC_763c1.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_763c1.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_763c1.dir/CheckIncludeFile.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: audio/audiolib.h: No such file or directory
+ #include <audio/audiolib.h>
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[4]: *** [CMakeFiles/cmTC_763c1.dir/build.make:85: CMakeFiles/cmTC_763c1.dir/CheckIncludeFile.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_763c1/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE_RPI failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7e3c9/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_7e3c9.dir/build.make CMakeFiles/cmTC_7e3c9.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e3c9.dir/src.c.o
+/usr/bin/cc   -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos" -DHAVE_RPI  -D_GNU_SOURCE=1  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux/  -L/opt/vc/lib -o CMakeFiles/cmTC_7e3c9.dir/src.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/src.c
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/src.c:2:18: fatal error: bcm_host.h: No such file or directory
+         #include <bcm_host.h>
+                  ^~~~~~~~~~~~
+compilation terminated.
+make[4]: *** [CMakeFiles/cmTC_7e3c9.dir/build.make:85: CMakeFiles/cmTC_7e3c9.dir/src.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_7e3c9/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+        #include <bcm_host.h>
+        #include <EGL/eglplatform.h>
+        int main(int argc, char **argv) {
+          EGL_DISPMANX_WINDOW_T window;
+          bcm_host_init();
+        }
+Performing C SOURCE FILE Test HAVE_VIVANTE_VDK failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_da9e9/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_da9e9.dir/build.make CMakeFiles/cmTC_da9e9.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da9e9.dir/src.c.o
+/usr/bin/cc   -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos" -DHAVE_VIVANTE_VDK  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_da9e9.dir/src.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/src.c
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/src.c:2:18: fatal error: gc_vdk.h: No such file or directory
+         #include <gc_vdk.h>
+                  ^~~~~~~~~~
+compilation terminated.
+make[4]: *** [CMakeFiles/cmTC_da9e9.dir/build.make:85: CMakeFiles/cmTC_da9e9.dir/src.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_da9e9/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+        #include <gc_vdk.h>
+        int main(int argc, char** argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_VIVANTE_EGL_FB failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_46c37/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_46c37.dir/build.make CMakeFiles/cmTC_46c37.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_46c37.dir/src.c.o
+/usr/bin/cc   -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos" -DHAVE_VIVANTE_EGL_FB  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_46c37.dir/src.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/src.c
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/src.c:4:18: fatal error: EGL/eglvivante.h: No such file or directory
+         #include <EGL/eglvivante.h>
+                  ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[4]: *** [CMakeFiles/cmTC_46c37.dir/build.make:85: CMakeFiles/cmTC_46c37.dir/src.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_46c37/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+        #define LINUX
+        #define EGL_API_FB
+        #include <EGL/eglvivante.h>
+        int main(int argc, char** argv) { return 0; }
+Determining if the include file libudev.h exists failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f9248/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_f9248.dir/build.make CMakeFiles/cmTC_f9248.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9248.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_f9248.dir/CheckIncludeFile.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: libudev.h: No such file or directory
+ #include <libudev.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make[4]: *** [CMakeFiles/cmTC_f9248.dir/build.make:85: CMakeFiles/cmTC_f9248.dir/CheckIncludeFile.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_f9248/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files pthread_np.h exist failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d545c/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_d545c.dir/build.make CMakeFiles/cmTC_d545c.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d545c.dir/HAVE_PTHREAD_NP_H.c.o
+/usr/bin/cc   -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos"  -D_GNU_SOURCE=1 -D_REENTRANT -pthread -o CMakeFiles/cmTC_d545c.dir/HAVE_PTHREAD_NP_H.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CheckIncludeFiles/HAVE_PTHREAD_NP_H.c
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CheckIncludeFiles/HAVE_PTHREAD_NP_H.c:2:10: fatal error: pthread_np.h: No such file or directory
+ #include <pthread_np.h>
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make[4]: *** [CMakeFiles/cmTC_d545c.dir/build.make:85: CMakeFiles/cmTC_d545c.dir/HAVE_PTHREAD_NP_H.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_d545c/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+Source:
+/* */
+#include <pthread_np.h>
+
+
+int main(void){return 0;}
+
+Determining if the include file samplerate.h exists failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4d2be/fast && make[3]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_4d2be.dir/build.make CMakeFiles/cmTC_4d2be.dir/build
+make[4]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4d2be.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -idirafter "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/SDL2-2.28.4/src/video/khronos" -DHAVE_LINUX_VERSION_H  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_4d2be.dir/CheckIncludeFile.c.o -c /home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: samplerate.h: No such file or directory
+ #include <samplerate.h>
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make[4]: *** [CMakeFiles/cmTC_4d2be.dir/build.make:85: CMakeFiles/cmTC_4d2be.dir/CheckIncludeFile.c.o] Error 1
+make[4]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:140: cmTC_4d2be/fast] Error 2
+make[3]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-build/CMakeFiles/CMakeTmp'
+
+
+

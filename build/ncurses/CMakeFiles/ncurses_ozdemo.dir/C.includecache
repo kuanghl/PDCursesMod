@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/demos/ozdemo.c
+signal.h
+-
+string.h
+-
+curses.h
+-
+stdlib.h
+-
+time.h
+-
+

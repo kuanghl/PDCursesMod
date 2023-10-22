@@ -1,0 +1,13 @@
+# Target labels
+ freetype2_ext
+# Source files and their labels
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/CMakeFiles/freetype2_ext
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/CMakeFiles/freetype2_ext.rule
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/CMakeFiles/freetype2_ext-complete.rule
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/freetype2_ext-prefix/src/freetype2_ext-stamp/freetype2_ext-install.rule
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/freetype2_ext-prefix/src/freetype2_ext-stamp/freetype2_ext-mkdir.rule
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/freetype2_ext-prefix/src/freetype2_ext-stamp/freetype2_ext-download.rule
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/freetype2_ext-prefix/src/freetype2_ext-stamp/freetype2_ext-update.rule
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/freetype2_ext-prefix/src/freetype2_ext-stamp/freetype2_ext-patch.rule
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/freetype2_ext-prefix/src/freetype2_ext-stamp/freetype2_ext-configure.rule
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/freetype2_ext-prefix/src/freetype2_ext-stamp/freetype2_ext-build.rule

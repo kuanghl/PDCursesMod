@@ -1,0 +1,13 @@
+# Target labels
+ zlib_ext
+# Source files and their labels
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/CMakeFiles/zlib_ext
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/CMakeFiles/zlib_ext.rule
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/CMakeFiles/zlib_ext-complete.rule
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/zlib_ext-prefix/src/zlib_ext-stamp/zlib_ext-install.rule
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/zlib_ext-prefix/src/zlib_ext-stamp/zlib_ext-mkdir.rule
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/zlib_ext-prefix/src/zlib_ext-stamp/zlib_ext-download.rule
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/zlib_ext-prefix/src/zlib_ext-stamp/zlib_ext-update.rule
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/zlib_ext-prefix/src/zlib_ext-stamp/zlib_ext-patch.rule
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/zlib_ext-prefix/src/zlib_ext-stamp/zlib_ext-configure.rule
+/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/zlib_ext-prefix/src/zlib_ext-stamp/zlib_ext-build.rule

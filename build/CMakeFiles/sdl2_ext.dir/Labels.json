@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/CMakeFiles/sdl2_ext"
+		},
+		{
+			"file" : "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/CMakeFiles/sdl2_ext.rule"
+		},
+		{
+			"file" : "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/CMakeFiles/sdl2_ext-complete.rule"
+		},
+		{
+			"file" : "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-stamp/sdl2_ext-install.rule"
+		},
+		{
+			"file" : "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-stamp/sdl2_ext-mkdir.rule"
+		},
+		{
+			"file" : "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-stamp/sdl2_ext-download.rule"
+		},
+		{
+			"file" : "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-stamp/sdl2_ext-update.rule"
+		},
+		{
+			"file" : "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-stamp/sdl2_ext-patch.rule"
+		},
+		{
+			"file" : "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-stamp/sdl2_ext-configure.rule"
+		},
+		{
+			"file" : "/home/kuanghongliang/Documents/vscode_projects/PDCursesMod/build/sdl2_ext-prefix/src/sdl2_ext-stamp/sdl2_ext-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sdl2_ext"
+		],
+		"name" : "sdl2_ext"
+	}
+}
