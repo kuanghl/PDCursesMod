@@ -1,13 +1,15 @@
 cmake_minimum_required(VERSION 3.11)
 
+
+
 if(NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE "MinSizeRel" CACHE STRING "Choose the type of build, options are: Debug, Release, or MinSizeRel." FORCE)
     message(STATUS "No build type specified, defaulting to MinSizeRel.")
 endif()
 
-PROJECT(vt VERSION "${PROJECT_VERSION}" LANGUAGES C)
+project(vt VERSION "${PROJECT_VERSION}" LANGUAGES C)
 
-INCLUDE(project_common)
+include(${CMAKE_CURRENT_LIST_DIR}/../cmake/project_common.cmake)
 
 if(DOS)
     string(APPEND CMAKE_C_FLAGS " -DDOS")

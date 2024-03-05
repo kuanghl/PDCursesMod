@@ -1,12 +1,12 @@
 message(STATUS "**** ${PROJECT_NAME} ****")
 
-set(PDCURSES_SRCDIR ${CMAKE_SOURCE_DIR})
+set(PDCURSES_SRCDIR ${CMAKE_CURRENT_LIST_DIR}/../)
 set(PDCURSES_DIST ${CMAKE_INSTALL_PREFIX}/${CMAKE_BUILD_TYPE})
 
 set(osdir ${PDCURSES_SRCDIR}/${PROJECT_NAME})
 set(demodir ${PDCURSES_SRCDIR}/demos)
 
-set(pdc_src_files
+file(GLOB pdc_src_files
     ${osdir}/pdcclip.c
     ${osdir}/pdcdisp.c
     ${osdir}/pdcgetsc.c
@@ -21,7 +21,7 @@ include_directories (${osdir})
 
 
 if(WIN32 AND NOT WATCOM)
-    include(dll_version)
+    include(${CMAKE_CURRENT_LIST_DIR}/dll_version.cmake)
     list(APPEND pdc_src_files ${CMAKE_CURRENT_BINARY_DIR}/version.rc)
 
     add_definitions(-D_WIN32 -D_CRT_SECURE_NO_WARNINGS)
@@ -114,9 +114,9 @@ endif()
 macro (demo_app dir targ)
     set(bin_name "${PROJECT_NAME}_${targ}")
     if(${targ} STREQUAL "tuidemo")
-        set(src_files ${CMAKE_CURRENT_SOURCE_DIR}/${dir}/tuidemo.c ${CMAKE_CURRENT_SOURCE_DIR}/${dir}/tui.c)
+        set(src_files ${CMAKE_CURRENT_LIST_DIR}/${dir}/tuidemo.c ${CMAKE_CURRENT_LIST_DIR}/${dir}/tui.c)
     else()
-        set(src_files ${CMAKE_CURRENT_SOURCE_DIR}/${dir}/${targ}.c)
+        set(src_files ${CMAKE_CURRENT_LIST_DIR}/${dir}/${targ}.c)
     endif()
 
     add_executable(${bin_name} ${ARGV2} ${src_files})
@@ -128,6 +128,7 @@ macro (demo_app dir targ)
     endif()
 
     add_dependencies(${bin_name} ${PDCURSE_PROJ})
+    # set bin_name to targ
     set_target_properties(${bin_name} PROPERTIES OUTPUT_NAME ${targ})
 
     install(TARGETS ${bin_name} RUNTIME DESTINATION ${PDCURSES_DIST}/bin/${PROJECT_NAME} COMPONENT applications)

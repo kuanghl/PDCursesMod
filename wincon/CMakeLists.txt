@@ -5,9 +5,9 @@ if(NOT CMAKE_BUILD_TYPE)
     message(STATUS "No build type specified, defaulting to MinSizeRel.")
 endif()
 
-PROJECT(wincon VERSION "${PROJECT_VERSION}" LANGUAGES C)
+project(wincon VERSION "${PROJECT_VERSION}" LANGUAGES C)
 
-INCLUDE(project_common)
+include(${CMAKE_CURRENT_LIST_DIR}/../cmake/project_common.cmake)
 
 demo_app(../demos calendar)
 demo_app(../demos firework)
@@ -26,4 +26,4 @@ demo_app(../demos widetest)
 demo_app(../demos worm)
 demo_app(../demos xmas)
 
-SET(CPACK_COMPONENTS_ALL applications)
+set(CPACK_COMPONENTS_ALL applications)

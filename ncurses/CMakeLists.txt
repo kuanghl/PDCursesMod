@@ -34,9 +34,9 @@ if(CURSES_FOUND)
 
         set(bin_name "${PROJECT_NAME}_${targ}")
         if(${targ} STREQUAL "tuidemo")
-            set(src_files ${CMAKE_CURRENT_SOURCE_DIR}/${dir}/tuidemo.c ${CMAKE_CURRENT_SOURCE_DIR}/${dir}/tui.c)
+            set(src_files ${CMAKE_CURRENT_LIST_DIR}/${dir}/tuidemo.c ${CMAKE_CURRENT_LIST_DIR}/${dir}/tui.c)
         else()
-            set(src_files ${CMAKE_CURRENT_SOURCE_DIR}/${dir}/${targ}.c)
+            set(src_files ${CMAKE_CURRENT_LIST_DIR}/${dir}/${targ}.c)
         endif()
 
         add_executable(${bin_name} ${src_files})
@@ -49,6 +49,7 @@ if(CURSES_FOUND)
 
         target_include_directories(${bin_name} PUBLIC ${CURSES_INCLUDE_DIR})
         target_link_libraries(${bin_name} ${CURSES_LIBRARIES})
+        # set bin_name to targ
         set_target_properties(${bin_name} PROPERTIES OUTPUT_NAME ${targ})
         
         install(TARGETS ${bin_name} RUNTIME DESTINATION ${PDCURSES_DIST}/bin/${PROJECT_NAME} COMPONENT applications)

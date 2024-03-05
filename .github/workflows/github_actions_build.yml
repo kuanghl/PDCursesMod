@@ -10,10 +10,17 @@ jobs:
     - uses: actions/checkout@master
     - name: make
       run: |
-         cd vt
-         make demos
-         cd ../fb
-         make UTF8=Y demos
+        #  # src
+        #  cd vt
+        #  make demos
+        #  cd ../fb
+        #  make UTF8=Y demos
+
+         # new
+         mkdir build
+         cd build
+         cmake ..
+         sudo make -j16
 
   buildOSX:
     runs-on: macOS-latest
@@ -22,8 +29,15 @@ jobs:
     - uses: actions/checkout@master
     - name: make
       run: |
-         cd vt
-         make CLANG=Y demos
+        #  # src
+        #  cd vt
+        #  make CLANG=Y demos
+
+         # new
+         mkdir build
+         cd build
+         cmake ..
+         sudo make -j16
 
   buildWindows:
     runs-on: windows-2022
